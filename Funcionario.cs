@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestaoDeFuncionario
 {
-    internal class Funcionario : IFuncionario
+    public abstract class Funcionario : IFuncionario
     {
         public Funcionario(string nome, string cargo, decimal salarioBase) 
         { 
